@@ -20,7 +20,7 @@
 - d -> features
 - k -> k-fold value
 - epsilon -> privacy budget
-- jump -> Tells how many points are to be obtained to plot the graph(10,20 etc)
+- jump -> X axis data jump(n/pts)
 - rep -> No of times the noises have to calucated to obtain multiple errors and average them. Reduces peakiness of perturbed input data a bit. Optimium value 10-20. Can go upto 50 for smaller dataasets as time won't be an issue.
 - apply_u -> Set as 1 to apply noise to xTx
 - apply_v -> Set as 1 to apply noise to xTy
